@@ -11,7 +11,7 @@ const bable = React.createElement(
 );
 
 const Counter = React.createClass({
-    getIntialState: function () {
+    getInitialState: function () {
         return {
             count: 0,
         };
